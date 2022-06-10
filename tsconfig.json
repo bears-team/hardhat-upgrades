@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "composite": true,
     "outDir": "dist",
@@ -10,6 +10,6 @@
     "src/**/*"
   ],
   "references": [
-    { "path": "../core" }
+    { "path": "./core" }
   ]
 }
